@@ -63,7 +63,12 @@ function mostrarCartelGanador() {
     //COMPLETAR
     //alert("Ha completado el rompecabezas. Felicidades!");
     if (chequearSiGano() === true) {
-    swal("Excelente!", "Lo resolviste de forma genial!","success");
+    //swal("Excelente!", "Lo resolviste de forma genial!","success");
+    Swal.fire(
+      'Excelente Trabajo!',
+      'Sos capaz de lo que sea 💪',
+      'success'
+    );
     }
 }
 
